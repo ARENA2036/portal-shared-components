@@ -18,7 +18,7 @@
  ********************************************************************************/
 
 import { useEffect, useState, useCallback } from 'react'
-import LogoInGray from '../../../assets/logo/construct-x-gray.svg?url'
+import LogoInGray from '../../../assets/logo/arena-x-gray.svg?url'
 
 export const LogoGrayData = LogoInGray
 
@@ -78,7 +78,7 @@ export const Image = ({ src, alt, style, loader }: ImageProps): JSX.Element => {
   return (
     <img
       src={(loader ?? error) ? data : src}
-      alt={alt ?? 'Construct-X'}
+      alt={alt ?? 'Arena-X'}
       onError={() => {
         setError(true)
         setData(LogoGrayData)

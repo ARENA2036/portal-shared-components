@@ -58,7 +58,7 @@ export const CardImage = ({
     },
     image: {
       normal: { width: '100%', height: withPreview(144) },
-      medium: { width: withPreview(156), height: withPreview(156) },
+      medium: { width: withPreview(200), height: withPreview(150) },
       small: { width: withPreview(80), height: withPreview(80) },
       round: { borderRadius: '50%' },
       square: { borderRadius: 6 },

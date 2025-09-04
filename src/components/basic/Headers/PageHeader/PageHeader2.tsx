@@ -1,32 +1,12 @@
-/********************************************************************************
- * Copyright (c) 2023 BMW Group AG
- * Copyright (c) 2023 Contributors to the Eclipse Foundation
- *
- * See the NOTICE file(s) distributed with this work for additional
- * information regarding copyright ownership.
- *
- * This program and the accompanying materials are made available under the
- * terms of the Apache License, Version 2.0 which is available at
- * https://www.apache.org/licenses/LICENSE-2.0.
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations
- * under the License.
- *
- * SPDX-License-Identifier: Apache-2.0
- ********************************************************************************/
-
 import { Box, useTheme } from '@mui/material'
+// import { mainNavigationHeight } from '../../MainNavigation'
 import DefaultPageHeaderImage from '../../../../assets/logo/default.jpg'
-import { mainNavigationHeight } from '../../MainNavigation'
 import { HeaderSubtractOption1 } from './Components/HeaderSubtractOption1'
 import { HeaderSubtractOption2 } from './Components/HeaderSubtractOption2'
 import { HeaderSubtractOption3 } from './Components/HeaderSubtractOption3'
 import { HeaderTitle } from './Components/HeaderTitle'
 
-export interface PageHeaderProps {
+export interface PageHeaderProp {
   children?: React.ReactNode
   title?: string
   topPage?: boolean
@@ -42,24 +22,24 @@ export interface PageHeaderProps {
   imagePath?: string
 }
 
-export const PageHeader = ({
+export const PageHeader2 = ({
   children,
   title,
   topPage = false,
-  headerHeight = 314,
+  // headerHeight = 314,
   hasSubtract = true,
   subtractOption = 'Option1',
   background = 'Image',
   imagePath,
-}: PageHeaderProps) => {
+}: PageHeaderProp) => {
   const { palette } = useTheme()
-  const hasChildren = !!children
-  const getTop = (): number => (hasChildren ? 73 : 153)
-  const getNotTop = () => (hasChildren ? 0 : 68)
-  const getSpacingTop = () => (hasChildren ? 0 : 12)
-  const top = topPage ? getTop() : getNotTop()
-  const height = topPage ? headerHeight + mainNavigationHeight : headerHeight
-  const spacingTop = topPage ? -mainNavigationHeight : getSpacingTop()
+  // const hasChildren = !!children
+  // const getTop = (): number => (hasChildren ? 73 : 153)
+  // const getNotTop = () => (hasChildren ? 0 : 68)
+  // const getSpacingTop = () => (hasChildren ? 0 : 12)
+  // const top = topPage ? getTop() : getNotTop()
+  // const height = topPage ? headerHeight + mainNavigationHeight : headerHeight
+  //
 
   const backgroundStyle = () => {
     if (background === 'LinearGradient1') {
@@ -99,8 +79,8 @@ export const PageHeader = ({
     <Box
       sx={{
         width: '100%',
-        height: `${height}px`,
-        marginTop: `${spacingTop}px`,
+        height: '200px  ',
+        marginTop: '0px',
         position: 'relative',
         background: backgroundStyle().css,
       }}
@@ -133,8 +113,10 @@ export const PageHeader = ({
           maxWidth: '1200px',
           padding: '0px 20px',
           margin: '0px auto',
-          paddingTop: `${top}px`,
-          marginTop: !topPage ? '-12px' : '0',
+          paddingTop: '0px !important',
+          marginTop: '0px !important',
+          position: 'relative',
+          zIndex: 1,
         }}
       >
         <HeaderTitle title={title} />

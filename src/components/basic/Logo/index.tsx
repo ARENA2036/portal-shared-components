@@ -30,7 +30,7 @@ interface LogoProps {
 
 export const Logo = ({
   variant = 'standard',
-  altText = 'Construct-X',
+  altText = 'Arena-X',
   ...props
 }: LogoProps) => {
   let image
