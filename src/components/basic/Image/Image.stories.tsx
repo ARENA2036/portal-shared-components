@@ -19,8 +19,8 @@
  ********************************************************************************/
 
 import type { Meta, StoryObj } from '@storybook/react'
+import logoFull from '../../../assets/logo/logo.png'
 import { Image as Component } from '.'
-
 const meta: Meta<typeof Component> = {
   component: Component,
   tags: ['autodocs'],
@@ -102,7 +102,7 @@ const drawing = ((): string => {
 
 export const FromURL: StoryObj<typeof Component> = {
   args: {
-    src: 'https://raw.githubusercontent.com/eclipse-tractusx/portal-assets/main/public/assets/images/logos/cx-short.svg',
+    src: logoFull,
     style,
   },
 }

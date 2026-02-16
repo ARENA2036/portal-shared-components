@@ -43,7 +43,7 @@ const items = [
   },
   {
     appId: '123',
-    provider: 'Catena-X',
+    provider: 'ReDriveS',
     name: 'DTC-Translator',
     status: StatusVariants.active,
     statusText: 'Active',

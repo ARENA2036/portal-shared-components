@@ -18,9 +18,8 @@
  * SPDX-License-Identifier: Apache-2.0
  ********************************************************************************/
 
-import CXLogoShort from '../../../assets/logo/cx-logo-short.svg'
-import CXLogoText from '../../../assets/logo/cx-logo-text.svg'
-import CXLogo from '../../../assets/logo/cx-logo.svg'
+import CXLogoText from '../../../assets/logo/logo-text.png'
+import CXLogoShort from '../../../assets/logo/logo.png'
 import { Image, LogoGrayData } from '../Image'
 
 interface LogoProps {
@@ -30,7 +29,7 @@ interface LogoProps {
 
 export const Logo = ({
   variant = 'standard',
-  altText = 'Catena-X',
+  altText = 'ReDriveS',
   ...props
 }: LogoProps) => {
   let image
@@ -46,8 +45,8 @@ export const Logo = ({
       image = LogoGrayData
       break
     default:
-      image = CXLogo
+      image = CXLogoText
   }
 
-  return <Image src={image as string} alt={altText} {...props} />
+  return <Image src={image} alt={altText} {...props} />
 }

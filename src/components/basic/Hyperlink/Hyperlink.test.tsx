@@ -23,7 +23,7 @@ import { ThemeProvider, createTheme } from '@mui/material/styles'
 import { Info } from '@mui/icons-material'
 import { Hyperlink } from '.'
 import { render } from '../../../test/testUtils'
-import image from '../../../assets/logo/cx-logo.svg'
+import image from '../../../assets/logo/logo-text.png'
 import '@testing-library/jest-dom'
 
 const theme = createTheme()

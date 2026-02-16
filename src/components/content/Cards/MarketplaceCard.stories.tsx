@@ -34,16 +34,16 @@ const Template: StoryFn<typeof Component> = (
 
 const items = [
   {
-    title: 'Catena-X News',
-    subtitle: 'Catena-X',
+    title: 'ReDriveS News',
+    subtitle: 'ReDriveS',
     subscriptionStatus: 'Pending',
     image: {
       src: 'https://images.unsplash.com/photo-1517153295259-74eb0b416cee?auto=format&fit=crop&w=640&q=420',
-      alt: 'Catena-X Card',
+      alt: 'ReDriveS Card',
     },
     description: 'Lorem Ipsum is simply dummy text of the printing.',
     onButtonClick: () => {
-      console.log('Catena-X News')
+      console.log('ReDriveS News')
     },
     readMoreText: 'Read more',
     readMoreLink: '#',
@@ -56,7 +56,7 @@ const items = [
     subscriptionStatus: 'Active',
     image: {
       src: 'https://images.unsplash.com/photo-1517153295259-74eb0b416cee?auto=format&fit=crop&w=640&q=420',
-      alt: 'Catena-X Card',
+      alt: 'ReDriveS Card',
     },
     description:
       'Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.',
@@ -70,11 +70,11 @@ const items = [
   },
   {
     title: 'Project Implementation: Earth Commerce',
-    subtitle: 'Catena-X',
+    subtitle: 'ReDriveS',
     subscriptionStatus: 'Active',
     image: {
       src: 'https://images.unsplash.com/photo-1517153295259-74eb0b416cee?auto=format&fit=crop&w=640&q=420',
-      alt: 'Catena-X Card',
+      alt: 'ReDriveS Card',
     },
     description: 'sea takimata sanctus est Lorem ipsum dolor sit amet.',
     onButtonClick: () => {
@@ -87,11 +87,11 @@ const items = [
   },
   {
     title: 'Fraud Dashboard',
-    subtitle: 'Catena-X',
+    subtitle: 'ReDriveS',
     subscriptionStatus: 'Pending',
     image: {
       src: 'https://images.unsplash.com/photo-1517153295259-74eb0b416cee?auto=format&fit=crop&w=640&q=420',
-      alt: 'Catena-X Card',
+      alt: 'ReDriveS Card',
     },
     description: 'At vero eos et accusam et justo duo dolores et ea rebum.',
     onButtonClick: () => {

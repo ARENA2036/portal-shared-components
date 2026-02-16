@@ -1,6 +1,6 @@
-# Catena-X Portal Shared UI Components
+# ReDriveS Portal Shared UI Components
 
-Contains the Shared UI Components that are used to build the [Portal Frontend](https://github.com/eclipse-tractusx/portal-frontend) and other applications in the Catena-X ecosystem.
+Contains the Shared UI Components that are used to build the [Portal Frontend](https://github.com/eclipse-tractusx/portal-frontend) and other applications in the ReDriveS ecosystem.
 
 - Source Code: https://github.com/eclipse-tractusx/portal-shared-components
 - NPM Library: https://npmjs.com/package/@catena-x/portal-shared-components
@@ -26,7 +26,7 @@ Check the default Vite React App in your browser which shows a button counting t
 number of times it has been clicked. Now let's modify this App so it's using the
 Shared Components instead of default HTML elements.
 
-Edit `src/main.tsx` to import and wrap the `App` with the Catena-X `SharedThemeProvider` context.
+Edit `src/main.tsx` to import and wrap the `App` with the ReDriveS `SharedThemeProvider` context.
 
 ```diff
 + import { SharedThemeProvider } from '@catena-x/portal-shared-components'
@@ -57,7 +57,7 @@ a dark more rectangle shaped to a larger blue more rounded one. However the
 behavior of the button hasn't changed.
 
 Now let's have a look at a more complex example. In a first step we remove the
-stylings because the components are coming with Catena-X UI styling presets.
+stylings because the components are coming with ReDriveS UI styling presets.
 
 Remove the css import from `src/main.tsx`
 

@@ -34,8 +34,8 @@ const Template: StoryFn<typeof Component> = (
 
 export const MainHeader = Template.bind({})
 MainHeader.args = {
-  title: 'Catena-X',
-  subTitle: 'the gateway to the automotive digital network',
+  title: 'ReDriveS',
+  subTitle: 'the gateway to the digital network',
   subTitleWidth: 787,
   headerHeight: 645,
   background: 'LinearGradient1',

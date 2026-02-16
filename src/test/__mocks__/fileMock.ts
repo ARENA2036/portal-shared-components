@@ -17,6 +17,5 @@
  * SPDX-License-Identifier: Apache-2.0
  ********************************************************************************/
 
-module.exports = {
-  default: 'default-mocking-for-file',
-}
+const mock = 'test-file-stub'
+export default mock

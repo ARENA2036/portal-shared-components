@@ -19,6 +19,7 @@
  ********************************************************************************/
 
 import { type StoryFn } from '@storybook/react'
+import logoFull from '../../../assets/logo/logo.png'
 import { StatusVariants } from './CardChip'
 import { CardHorizontal as Component } from './CardHorizontal'
 
@@ -35,14 +36,14 @@ const Template: StoryFn<typeof Component> = (
 
 export const CardHorizontal = Template.bind({})
 CardHorizontal.args = {
-  label: 'Catena-X',
+  label: 'ReDriveS',
   title: 'Digital Twin Debugger',
   subTitle: 'Service Category',
   description:
     'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
   borderRadius: 20,
   image: {
-    src: 'https://raw.githubusercontent.com/eclipse-tractusx/portal-assets/main/public/assets/images/logos/cx-short.svg',
+    src: logoFull,
     alt: 'alt text',
     style: {
       color: 'red',

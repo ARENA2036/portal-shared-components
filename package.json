@@ -1,8 +1,8 @@
 {
-  "name": "@catena-x/portal-shared-components",
+  "name": "@arena2036/portal-shared-components-redrives",
   "version": "3.7.6",
-  "description": "Catena-X Portal Shared Components",
-  "author": "Catena-X Contributors",
+  "description": "ReDriveS Portal Shared Components",
+  "author": "ReDriveS Contributors",
   "license": "Apache-2.0",
   "type": "module",
   "main": "dist/portal-shared-components.js",
@@ -12,7 +12,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/eclipse-tractusx/portal-shared-components.git"
+    "url": "https://github.com/ARENA2036/portal-shared-components.git"
   },
   "publishConfig": {
     "access": "public"

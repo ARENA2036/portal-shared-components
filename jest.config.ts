@@ -25,6 +25,7 @@ module.exports = {
     '^.+\\.tsx?$': 'ts-jest',
   },
   moduleNameMapper: {
+    '\\.(jpg|jpeg|png|gif|svg)$': '<rootDir>/src/test/__mocks__/fileMock.ts',
     '\\.(css|scss)$': '<rootDir>/src/test/__mocks__/styleMock.ts',
     '\\.svg$': '<rootDir>/src/test/__mocks__/fileMock.ts',
     '@mui/material/styles/createPalette':

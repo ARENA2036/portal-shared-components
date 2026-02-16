@@ -57,7 +57,7 @@ export const Default: StoryObj<typeof Component> = {
         {
           title: 'Configure Company IdP (optional)',
           description:
-            'If your company would like to use their own company authentication to have the comfort of federated user login and user credentials not shared with an operator, you can connect your company IdP with the Catena-X shared IdP. Please refer to the following documentation to show you the necessary steps to configure your <strong>Company IdP</strong>.<1></1><1></1>',
+            'If your company would like to use their own company authentication to have the comfort of federated user login and user credentials not shared with an operator, you can connect your company IdP with the ReDriveS shared IdP. Please refer to the following documentation to show you the necessary steps to configure your <strong>Company IdP</strong>.<1></1><1></1>',
           id: 'idp-id',
           sectionLink: {
             data: [

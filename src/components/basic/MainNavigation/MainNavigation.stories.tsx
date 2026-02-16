@@ -21,7 +21,7 @@
 import PersonOutlineIcon from '@mui/icons-material/PersonOutline'
 import { Box } from '@mui/material'
 import { type StoryFn } from '@storybook/react'
-import CXLogoText from '../../../assets/logo/cx-logo-text.svg'
+import CXLogoText from '../../../assets/logo/logo-text.png'
 import { Button } from '../Button'
 import { IconButton } from '../IconButton'
 import { MainNavigation as Component } from '.'
@@ -47,9 +47,9 @@ const Template: StoryFn<typeof Component> = (
     <Box
       component="img"
       sx={{
-        display: 'inline-block',
-        width: '170px',
-        height: '40px',
+        display: 'block',
+        width: 'auto',
+        height: '50px',
       }}
       src={CXLogoText}
     />
