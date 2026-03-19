@@ -53,15 +53,15 @@ export const paletteDefinitions = {
     black: '#000',
   },
   primary: {
-    main: '#0f71cb',
-    dark: '#0d55af',
+    main: '#E67E22',
+    dark: '#F57C00',
     contrastText: '#fff',
-    shadow: 'rgba(15, 113, 203, 0.4)',
+    shadow: '#C56600',
   },
   secondary: {
     main: '#eaf1fe',
     dark: '#d4e3fe',
-    contrastText: '#0f71cb',
+    contrastText: '#F57C00',
   },
   brand: {
     brand01: '#FFA600',
