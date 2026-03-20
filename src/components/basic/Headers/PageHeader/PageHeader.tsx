@@ -75,7 +75,7 @@ export const PageHeader = ({
 
     if (background === 'LinearGradient4') {
       return {
-        background: 'linear-gradient(111.81deg, #006633 41.97%, #156082 72.9%)',
+        background: 'linear-gradient(111.81deg, #E6F2EB 41.97%, #E8F1F5 72.9%)',
       }
     }
 
@@ -105,7 +105,7 @@ export const PageHeader = ({
             alignItems: 'center',
             height: 80,
             background:
-              'linear-gradient(292.62deg, #00572B  -16.38%, #12546F  82.22%)',
+              'linear-gradient(292.62deg, #F5FBF7  -16.38%, #F4F9FC  82.22%)',
           }}
         >
           <Box
