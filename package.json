@@ -1,12 +1,20 @@
 {
   "name": "@arena2036/portal-shared-components-redrives",
-  "version": "3.7.6",
+  "version": "0.0.5",
   "description": "ReDriveS Portal Shared Components",
   "author": "ReDriveS Contributors",
   "license": "Apache-2.0",
   "type": "module",
-  "main": "dist/portal-shared-components.js",
+  "main": "dist/portal-shared-components-redrives.js",
+  "module": "dist/portal-shared-components-redrives.js",
   "types": "dist/main.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/portal-shared-components-redrives.js",
+      "require": "./dist/portal-shared-components-redrives.js",
+      "types": "./dist/main.d.ts"
+    }
+  },
   "files": [
     "dist"
   ],
