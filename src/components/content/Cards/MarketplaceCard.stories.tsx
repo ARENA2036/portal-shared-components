@@ -34,16 +34,16 @@ const Template: StoryFn<typeof Component> = (
 
 const items = [
   {
-    title: 'ReDriveS News',
-    subtitle: 'ReDriveS',
+    title: 'Furniture-X News',
+    subtitle: 'Furniture-X',
     subscriptionStatus: 'Pending',
     image: {
       src: 'https://images.unsplash.com/photo-1517153295259-74eb0b416cee?auto=format&fit=crop&w=640&q=420',
-      alt: 'ReDriveS Card',
+      alt: 'Furniture-X Card',
     },
     description: 'Lorem Ipsum is simply dummy text of the printing.',
     onButtonClick: () => {
-      console.log('ReDriveS News')
+      console.log('Furniture-X News')
     },
     readMoreText: 'Read more',
     readMoreLink: '#',
@@ -56,7 +56,7 @@ const items = [
     subscriptionStatus: 'Active',
     image: {
       src: 'https://images.unsplash.com/photo-1517153295259-74eb0b416cee?auto=format&fit=crop&w=640&q=420',
-      alt: 'ReDriveS Card',
+      alt: 'Furniture-X Card',
     },
     description:
       'Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.',
@@ -70,11 +70,11 @@ const items = [
   },
   {
     title: 'Project Implementation: Earth Commerce',
-    subtitle: 'ReDriveS',
+    subtitle: 'Furniture-X',
     subscriptionStatus: 'Active',
     image: {
       src: 'https://images.unsplash.com/photo-1517153295259-74eb0b416cee?auto=format&fit=crop&w=640&q=420',
-      alt: 'ReDriveS Card',
+      alt: 'Furniture-X Card',
     },
     description: 'sea takimata sanctus est Lorem ipsum dolor sit amet.',
     onButtonClick: () => {
@@ -87,11 +87,11 @@ const items = [
   },
   {
     title: 'Fraud Dashboard',
-    subtitle: 'ReDriveS',
+    subtitle: 'Furniture-X',
     subscriptionStatus: 'Pending',
     image: {
       src: 'https://images.unsplash.com/photo-1517153295259-74eb0b416cee?auto=format&fit=crop&w=640&q=420',
-      alt: 'ReDriveS Card',
+      alt: 'Furniture-X Card',
     },
     description: 'At vero eos et accusam et justo duo dolores et ea rebum.',
     onButtonClick: () => {

@@ -34,7 +34,7 @@ const Template: StoryFn<typeof Component> = (
 
 export const MainHeader = Template.bind({})
 MainHeader.args = {
-  title: 'ReDriveS',
+  title: 'Furniture-X',
   subTitle: 'the gateway to the digital network',
   subTitleWidth: 787,
   headerHeight: 645,

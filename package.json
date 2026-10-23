@@ -1,17 +1,17 @@
 {
-  "name": "@arena2036/portal-shared-components-redrives",
-  "version": "0.0.6",
-  "description": "ReDriveS Portal Shared Components",
-  "author": "ReDriveS Contributors",
+  "name": "@arena2036/portal-shared-components-furniture-x",
+  "version": "0.0.1",
+  "description": "Furniture-X Portal Shared Components",
+  "author": "Furniture-X Contributors",
   "license": "Apache-2.0",
   "type": "module",
-  "main": "dist/portal-shared-components-redrives.js",
-  "module": "dist/portal-shared-components-redrives.js",
+  "main": "dist/portal-shared-components-furniture-x.js",
+  "module": "dist/portal-shared-components-furniture-x.js",
   "types": "dist/main.d.ts",
   "exports": {
     ".": {
-      "import": "./dist/portal-shared-components-redrives.js",
-      "require": "./dist/portal-shared-components-redrives.js",
+      "import": "./dist/portal-shared-components-furniture-x.js",
+      "require": "./dist/portal-shared-components-furniture-x.js",
       "types": "./dist/main.d.ts"
     }
   },

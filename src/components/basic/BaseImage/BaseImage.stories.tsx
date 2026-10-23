@@ -35,5 +35,5 @@ const Template: StoryFn<typeof Component> = (
 export const BaseImage = Template.bind({})
 BaseImage.args = {
   image: logo,
-  altText: 'Logo ReDriveS',
+  altText: 'Logo Furniture-X',
 }

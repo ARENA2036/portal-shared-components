@@ -29,7 +29,7 @@ interface LogoProps {
 
 export const Logo = ({
   variant = 'standard',
-  altText = 'ReDriveS',
+  altText = 'Furniture-X',
   ...props
 }: LogoProps) => {
   let image

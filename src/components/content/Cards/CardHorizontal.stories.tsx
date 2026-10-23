@@ -36,7 +36,7 @@ const Template: StoryFn<typeof Component> = (
 
 export const CardHorizontal = Template.bind({})
 CardHorizontal.args = {
-  label: 'ReDriveS',
+  label: 'Furniture-X',
   title: 'Digital Twin Debugger',
   subTitle: 'Service Category',
   description:

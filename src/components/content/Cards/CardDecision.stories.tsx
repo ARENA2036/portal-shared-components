@@ -43,7 +43,7 @@ const items = [
   },
   {
     appId: '123',
-    provider: 'ReDriveS',
+    provider: 'Furniture-X',
     name: 'DTC-Translator',
     status: StatusVariants.active,
     statusText: 'Active',

@@ -74,7 +74,7 @@ export const Image = ({ src, alt, style, loader }: ImageProps): JSX.Element => {
   return (
     <img
       src={(loader ?? error) ? data : src}
-      alt={alt ?? 'ReDriveS'}
+      alt={alt ?? 'Furniture-X'}
       onError={() => {
         setError(true)
         setData(LogoGrayData)

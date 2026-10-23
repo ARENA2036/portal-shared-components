@@ -39,10 +39,10 @@ type Story = StoryObj<typeof Component>
 
 const item = {
   title: 'Digital Twin Aspect Debugger',
-  subtitle: 'ReDriveS',
+  subtitle: 'Furniture-X',
   image: {
     src: 'https://images.unsplash.com/photo-1517153295259-74eb0b416cee?auto=format&fit=crop&w=640&q=420',
-    alt: 'ReDriveS Card',
+    alt: 'Furniture-X Card',
   },
   rating: 4.5,
   price: 'free to use',

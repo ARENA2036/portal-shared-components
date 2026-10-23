@@ -29,7 +29,7 @@ interface ErrorImageProps {
 
 export const ErrorImage = ({
   variant = 'color',
-  altText = 'ReDriveS Error',
+  altText = 'Furniture-X Error',
   ...props
 }: ErrorImageProps) => (
   <Image
